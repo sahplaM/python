@@ -69,6 +69,6 @@ class Television:
         Return the television power, channel, and volume values.
         """
         if self.__muted:
-            return f'Volume = {Television.MIN_VOLUME}'
+            return f'Power = {self.__status}, Channel = {self.__channel}, Volume = {Television.MIN_VOLUME}'
         else:
             return f'Power = {self.__status}, Channel = {self.__channel}, Volume = {self.__volume}'
