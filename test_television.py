@@ -1,4 +1,4 @@
-from television import Television
+from television import *
 
 
 def test_init():
